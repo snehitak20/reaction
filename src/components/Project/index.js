@@ -4,6 +4,8 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Card from 'react-bootstrap/Card';
 import './Project.css'
+import subscribe from '../../assets/imgs/subscribe.png';
+
 
 function Project() {
    const [projects] = useState([
@@ -52,7 +54,7 @@ function Project() {
         <Col xs={12} md={4}>
           <Card key={i}>
             <Card.Img
-              src={require(`../../assets/imgs/${project.imgName}`).default}
+              src={subscribe}
               alt={project.name}
               className="project-image"
               variant="top"
