@@ -9,7 +9,7 @@ function Navigation({ pages = [], setCurrentPage, currentPage }) {
     <Navbar expand="lg">
       <Container fluid>
         <Navbar.Brand>
-          <span className="nav-title">Snehita K&#237;olli</span>
+          <span className="nav-title">Snehita Kolli</span>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav">
           <i className="fas fa-ellipsis-v fa-md"></i>

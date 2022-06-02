@@ -1,5 +1,5 @@
 import React from 'react';
-import self from '../../assets/sneha1.jpg';
+import self from '../../assets/imgs/sneha1.jpg';
 import { Row, Col } from 'react-bootstrap';
 import './About.css'
 

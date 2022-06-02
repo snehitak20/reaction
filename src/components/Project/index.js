@@ -52,7 +52,7 @@ function Project() {
            <Col xs={12} md={4}>
              <Card key={i}>
                <Card.Img
-                 src={require(`../../assets/${project.imgName}`).default}
+                 src={require(`../../assets/imgs/${project.imgName}`).default}
                  alt={project.name}
                  className="project-image"
                  variant="top"
