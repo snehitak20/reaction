@@ -42,3 +42,19 @@ When first opening the application, users are directed to the "About" page. Usin
 5. Run `npm i` in the command line to install the package.json file.
 6. Run `npm start` in the command line to start the application and go to http://localhost:3000 to view the app in your browser.
 7. You have successfully completed this project!
+
+## Credits
+
+Initial prompt given by UC Berkeley Extension, Coding Bootcamp. 
+
+## Reflection
+
+For this project, it was important to learn the use of React. It is important to learn what is considered to be professional on LinkedIn and GitHub, and how to create a true professional portfolio that is reflective of me. The key star here is Bootstrap for helping with the webpage layout.  This website stands out because it is a true professional portfolio that is reflective of my goals. 
+
+## License
+
+Licensed under the [MIT](https://choosealicense.com/licenses/mit/#) license.
+
+## Contributors 
+
+[LinkedIn](https://www.linkedin.com/in/snehita-kolli-0abb23b1/) | [GitHub](https://github.com/snehitak20)
