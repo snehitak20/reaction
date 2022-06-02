@@ -46,34 +46,34 @@ function Project() {
    ]);
 
    return (
-     <Container>
-       <Row>
-         {projects.map((project, i) => (
-           <Col xs={12} md={4}>
-             <Card key={i}>
-               <Card.Img
-                 src={require(`../../assets/imgs/${project.imgName}`).default}
-                 alt={project.name}
-                 className="project-image"
-                 variant="top"
-               ></Card.Img>
-               <Card.ImgOverlay>
-                 <Card.Title>{project.name}</Card.Title>
-                 <Card.Text>
-                   <a href={project.url} target="_blank" rel="noreferrer">
-                     <i class="fas fa-external-link-alt fa-lg"></i>
-                   </a>
-                   <a href={project.github} target="_blank" rel="noreferrer">
-                     <i class="fab fa-github fa-lg"></i>
-                   </a>
-                 </Card.Text>
-               </Card.ImgOverlay>
-             </Card>
-           </Col>
-         ))}
-       </Row>
-     </Container>
-   );
+    <Container>
+    <Row>
+      {projects.map((project, i) => (
+        <Col xs={12} md={4}>
+          <Card key={i}>
+            <Card.Img
+              src={require(`../../assets/imgs/${project.imgName}`).default}
+              alt={project.name}
+              className="project-image"
+              variant="top"
+            ></Card.Img>
+            <Card.ImgOverlay>
+              <Card.Title>{project.name}</Card.Title>
+              <Card.Text>
+                <a href={project.url} target="_blank" rel="noreferrer">
+                  <i class="fas fa-external-link-alt fa-lg"></i>
+                </a>
+                <a href={project.github} target="_blank" rel="noreferrer">
+                  <i class="fab fa-github fa-lg"></i>
+                </a>
+              </Card.Text>
+            </Card.ImgOverlay>
+          </Card>
+        </Col>
+      ))}
+    </Row>
+  </Container>
+);
 }
 
 export default Project;
