@@ -10,7 +10,9 @@ This is a portfolio that is built using React. Users are able to navigate using 
 
 ## Usage
 
-When first opening the application, users are directed to the "About" page. Using the navigation bar at the top of the page, users are also able to navigate to the portfolio, contact, and resume pages. 
+When first opening the application, users are directed to the "About" page. Using the navigation bar at the top of the page, users are also able to navigate to the portfolio, contact, and resume pages.
+
+<img src="./src/assets/imgs/portfolio.png" alt="Portfolio">
 
 ## Technologies Used
 
