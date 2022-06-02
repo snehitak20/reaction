@@ -1,0 +1,36 @@
+.card {
+    margin-bottom: 20px;
+    border: 2px solid var(--strawberry);
+    box-shadow: 8px 8px 2px 1px rgba(238, 109, 137, .4);
+    border-radius: 10px;
+  }
+  
+  .project-image {
+    border-radius: 9px;
+  }
+  
+  .card-img-overlay {
+    color: transparent;
+    text-align: center;
+  }
+  
+  .card-title {
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 5%;
+  }
+  
+  .card-img-overlay a {
+    color: rgba(255, 254, 254, .6);
+    font-size: 25px;
+    margin: 30px;
+  }
+  
+  .card-img-overlay:hover {
+    color: var(--light);
+    background-color: rgba(238, 109, 137, .9);
+  }
+  
+  .card-img-overlay a:hover {
+    color: var(--kiwi);
+  }
