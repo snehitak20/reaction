@@ -1,16 +1,20 @@
 {
   "files": {
-    "main.css": "/reaction/static/css/main.073c9b0a.css",
-    "main.js": "/reaction/static/js/main.f8c6e3c3.js",
-    "static/js/787.27d69e1d.chunk.js": "/reaction/static/js/787.27d69e1d.chunk.js",
-    "static/media/logo.svg": "/reaction/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/reaction/static/css/main.024f4f2f.css",
+    "main.js": "/reaction/static/js/main.94f9bc1e.js",
+    "static/media/subscribe.png": "/reaction/static/media/subscribe.6c220d7858170a040574.png",
+    "static/media/sneha1.jpg": "/reaction/static/media/sneha1.477f5ded5648f0f745d0.jpg",
+    "static/media/weather.png": "/reaction/static/media/weather.00187b69b1d67d5ed3c3.png",
+    "static/media/landing.png": "/reaction/static/media/landing.67e984e4018be9f3c297.png",
+    "static/media/password.png": "/reaction/static/media/password.1d5f035da35153e59fc3.png",
+    "static/media/codeQuiz.png": "/reaction/static/media/codeQuiz.1f37812857d4580785b3.png",
+    "static/media/note.png": "/reaction/static/media/note.f25f8030545734f71dd3.png",
     "index.html": "/reaction/index.html",
-    "main.073c9b0a.css.map": "/reaction/static/css/main.073c9b0a.css.map",
-    "main.f8c6e3c3.js.map": "/reaction/static/js/main.f8c6e3c3.js.map",
-    "787.27d69e1d.chunk.js.map": "/reaction/static/js/787.27d69e1d.chunk.js.map"
+    "main.024f4f2f.css.map": "/reaction/static/css/main.024f4f2f.css.map",
+    "main.94f9bc1e.js.map": "/reaction/static/js/main.94f9bc1e.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.f8c6e3c3.js"
+    "static/css/main.024f4f2f.css",
+    "static/js/main.94f9bc1e.js"
   ]
 }
