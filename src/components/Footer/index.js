@@ -13,7 +13,7 @@ function Footer() {
          </Col>
          <Col xs={6} md={6}>
            <a
-             href="www.linkedin.com/in/snehitakolli"
+             href="https://www.linkedin.com/in/snehita-kolli-0abb23b1/"
              target="_blank"
              rel="noreferrer"
            >

@@ -5,43 +5,43 @@ import Row from 'react-bootstrap/Row';
 import Card from 'react-bootstrap/Card';
 import './Project.css'
 import subscribe from '../../assets/imgs/subscribe.png';
-
+// import landing from '../../assets/imgs/landing.png';
 
 function Project() {
    const [projects] = useState([
      {
        name: "Subscribe-o-Matic",
-       imgName: "subscribe.png",
+       image: "subscribe.png",
        url: "https://subscribe-o-matic.herokuapp.com/",
        github: "https://github.com/snehitak20/subscribe-o-matic",
      },
      {
        name: "Let's Stay In",
-       imgName: "landing.png",
+       image: "landing.png",
        url: "https://snehitak20.github.io/lets-stay-in/",
        github: "https://github.com/snehitak20/lets-stay-in",
      },
      {
        name: "Note Taker",
-       imgName: "note.png",
+       image: "note.png",
        url: "https://memory-help-pls.herokuapp.com/",
        github: "https://github.com/snehitak20/memory-help-pls",
      },
      {
        name: "Weather Dashboard",
-       imgName: "weather.png",
+       image: "weather.png",
        url: "https://snehitak20.github.io/chance-of-meatballs/",
        github: "https://github.com/snehitak20/chance-of-meatballs",
      },
      {
         name: "Code Quiz",
-        imgName: "codeQuiz.png",
+        image: "codeQuiz.png",
         url: "https://snehitak20.github.io/under-the-sea/",
         github: "https://github.com/snehitak20/under-the-sea",
       },
       {
         name: "Password Generator",
-        imgName: "password.png",
+        image: "password.png",
         url: "https://snehitak20.github.io/faster-than-fast/",
         github: "https://github.com/snehitak20/faster-than-fast",
       },
@@ -50,9 +50,9 @@ function Project() {
    return (
     <Container>
     <Row>
-      {projects.map((project, i) => (
+      {projects.map((project) => (
         <Col xs={12} md={4}>
-          <Card key={i}>
+          <Card>
             <Card.Img
               src={subscribe}
               alt={project.name}
